@@ -32,15 +32,10 @@ for (int i=0; i<size-1; i++){
         }
     }
 }
-
 cout<<endl;
 for (int i =0; i<size; i++){
     cout<<arr[i]<<", ";
 }
-
-
-
-
     return 0; 
  }
 
@@ -50,7 +45,6 @@ for (int i =0; i<size; i++){
         if (arr[mid]==key)return mid;
         if (arr[mid]<key) left=mid+1;
         else right= mid-1;
-
     }
     return -1;
  }
